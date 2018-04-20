@@ -26,7 +26,7 @@ public class CurrencyApi {
 
     public void request(Context c) {
         RequestQueue queue = Volley.newRequestQueue(c);
-        String url ="https://api.fixer.io/latest?symbols=JPY";
+        String url ="http://data.fixer.io/api/latest?access_key="+R.string.currency_api_key+"&symbols=JPY";
 
         JsonObjectRequest jsonRequest = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
 

@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">CurrencyApp</string>
+    <string name="channel_name">my_channel_0</string>
+    <string name="channel_description">Notification Description</string>
+    <string name="currency_api_key">cbb35e1c9eb979f969da51a5b211c2a5</string>
 </resources>
